@@ -1,0 +1,99 @@
+/*Result Container*/
+.pictures-container{
+  display: flex;
+  flex-flow: wrap;
+}
+
+.picture{
+  width: 50%;
+  height: 200px;
+}
+.pictures-container .btn {
+  postion: absolute;
+  top:60%;
+  left:40%;
+  transform:translate(-50%,-50%);
+  font-size: 15px;
+}
+.picture .btn:hover {
+  background-color: black
+}
+
+.image-wrapper{
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  box-sizing: border-box;
+  height: 100%;
+}
+.image{
+  width: 100%;
+  height: 200px;
+}
+
+.image-wrapperc{
+  display:flex;
+  justify-content: center;
+  align-self:center;
+  box-sizing:border-box;
+  height: 100%;
+}
+
+.imagec{
+  width:100%;
+  height: 200px;
+}
+.show{
+  display: inline-block;
+}
+.hide{
+  display: none;
+}
+
+.pagination{
+  list-style:none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 5rem;
+  font-size: 1.2rem;
+  gap:5px;
+}
+
+.pagination .page-num{
+  padding: 8px 15px;
+  cursor: pointer;
+  border-radius: 3px;
+  font-weight: 400;
+}
+
+.pagination .page-num:hover{
+  background-color: #5AB18B;
+  color: #fff;
+}
+
+.pagination .active{
+  background-color: #5AB18B;
+}
+
+.button {
+  position:relative;
+
+  background-color:#F0b023;
+  right: 80px;
+  bottom:5px;
+  width:10px
+  color: #fff;
+  border:none;
+}
+
+.buttond {
+  position:relative;
+
+  background-color:#00b023;
+  right: 80px;
+  bottom:5px;
+  width:10px
+  color: #fff;
+  border:none;
+}
